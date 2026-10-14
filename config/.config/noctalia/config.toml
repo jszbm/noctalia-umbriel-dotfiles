@@ -14,7 +14,7 @@ font_weight = 600
 capsule = true
 start  = ["control-center", "workspaces", "media", "wallpaper"]
 center = []
-end    = [ "tray", "clipboard", "network", "bluetooth", "volume", "brightness", "battery", "notifications", "clock" ]
+end    = [ "tray", "clipboard", "network", "bluetooth", "volume", "brightness", "battery", "notifications", "weather", "clock", ]
 
 [widget.workspaces]
 show_labels = false
