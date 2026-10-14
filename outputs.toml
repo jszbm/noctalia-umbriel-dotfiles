@@ -1,0 +1,15 @@
+# Example outputs file.
+# Place real outputs.toml in the umbriel config folder.
+# config.toml includes outputs.toml, your displays will work.
+
+[output.DP-1]
+mode = "1920x1080@144"
+position = [0, 0]
+scale = 1
+vrr= "fullscreen"
+
+[output.DP-2]
+mode = "2560x1440@180"
+position = [1920, 0]
+scale = 1
+vrr = "fullscreen"

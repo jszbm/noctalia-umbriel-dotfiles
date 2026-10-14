@@ -12,6 +12,9 @@ yay -S umbriel xdg-desktop-portal-umbriel-git
 
 Run the setup script
 ```
-chmod 600 ./install.sh
+chmod 700 ./install.sh
 ./install.sh
 ```
+
+File `outputs.toml` serves as an example for display configuration.
+Make your own and place it in `~.config/umbriel/`. Your displays will work.
