@@ -1,0 +1,48 @@
+[theme]
+source = "wallpaper"
+wallpaper_scheme = "m3-monochrome"
+
+[theme.templates]
+enable_builtin_templates = true
+builtin_ids = [ "umbriel" ]
+
+[bar.default]
+position = "top"
+margin_ends = 0
+radius = 0
+font_weight = 600
+capsule = true
+start  = ["control-center", "workspaces", "media", "wallpaper"]
+center = []
+end    = [ "tray", "clipboard", "network", "bluetooth", "volume", "brightness", "battery", "notifications", "clock" ]
+
+[widget.workspaces]
+show_labels = false
+
+[widget.control-center]
+custom_image = "~/.config/noctalia/arch-linux-rounded.svg"
+
+[widget.launcher]
+custom_image = "~/.config/noctalia/arch-linux-rounded.svg"
+
+[widget.clock]
+format = "{:%a, %b %d %I:%M %p}"
+
+[wallpaper]
+directory = "~/Pictures/bg"
+
+[shell]
+font_family = "Inter"
+
+[shell.screenshot]
+directory = "~/Pictures/Screenshots"
+save_to_file = true
+copy_to_clipboard = true
+
+[dock]
+enabled = true
+smart_auto_hide = true
+reserve_space = false
+
+
+launcher_position = "end"
