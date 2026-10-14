@@ -17,4 +17,4 @@ chmod 700 ./install.sh
 ```
 
 File `outputs.toml` serves as an example for display configuration.
-Make your own and place it in `~.config/umbriel/`. Your displays will work.
+Make your own and place it in `~/.config/umbriel/`. Your displays will work.
