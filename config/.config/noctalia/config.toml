@@ -45,5 +45,8 @@ smart_auto_hide = true
 reserve_space = false
 concave_edge_corners = false
 margin_edge = 4
+show_instance_count = false
+show_dots = true
+pinned = ["kitty", "thunar", "firefox", "chromium", "code", "spotify-launcher"]
 
 launcher_position = "end"
