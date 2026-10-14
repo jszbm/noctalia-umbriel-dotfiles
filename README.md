@@ -13,5 +13,5 @@ yay -S umbriel xdg-desktop-portal-umbriel-git
 Run the setup script
 ```
 chmod 600 ./install.sh
-./install.s:qh
+./install.sh
 ```
