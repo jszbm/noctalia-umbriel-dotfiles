@@ -124,6 +124,9 @@ numlock_toggle = true
 # Actions: https://docs.noctalia.dev/umbriel/actions/
 [keybinds]
 
+# Locking
+"Mod+Alt+L" = "spawn:noctalia msg session lock"
+
 # Screenshot
 "Print" = "spawn:noctalia msg screenshot-region"
 "Shift+Print" = "spawn:noctalia msg screenshot-fullscreen"

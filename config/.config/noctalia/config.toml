@@ -39,6 +39,17 @@ directory = "~/Pictures/Screenshots"
 save_to_file = true
 copy_to_clipboard = true
 
+[lockscreen]
+# blurred_desktop = true
+transition = ["fade"]
+transition_duration = 1000
+
+[lockscreen_widgets]
+enabled = false
+
+# [lockscreen_widgets.widget.lockscreen_login_box.settings]
+# show_session_buttons = false
+
 [dock]
 enabled = true
 smart_auto_hide = true
