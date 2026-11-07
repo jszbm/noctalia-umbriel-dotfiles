@@ -62,6 +62,12 @@ disable_dynamic_confirmation = true
 # vrr = "fullscreen"
 # hdr = "auto"
 
+[output.DP-1]
+vrr = "disabled"
+
+[output.DP-2]
+vrr = "disabled"
+
 # ==============================================================================
 # Appearance
 # Blur uses a smaller radius than the built-in default.
@@ -142,7 +148,7 @@ natural_scroll = true
 "Mod+Q" = { action = "window-close", repeat = false }
 "Mod+Escape" = "session-quit"
 "Mod+Shift+Escape" = { action = "shortcuts-inhibit-toggle", allow_when_inhibited = true, repeat = false }
-"Mod+E" = {action = "spawn:thunar", repeat = false }
+"Mod+E" = {action = "spawn:nautilus -w", repeat = false }
 "Mod+Shift+Comma" = { action = "spawn:noctalia msg settings-open", repeat = false }
 
 # Focus and movement
