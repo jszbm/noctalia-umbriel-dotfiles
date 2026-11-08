@@ -18,6 +18,7 @@ chmod 700 ./install.sh
 
 File `outputs.toml` serves as an example for display configuration.
 Make your own and place it in `~/.config/umbriel/`.
+
 To see outputs and possible modes:
 ```bash
 umbriel outputs
