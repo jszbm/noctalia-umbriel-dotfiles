@@ -4,7 +4,7 @@ wallpaper_scheme = "m3-monochrome"
 
 [theme.templates]
 enable_builtin_templates = true
-builtin_ids = [ "umbriel" ]
+builtin_ids = [ "umbriel", "gtk3", "gtk4", "qt", "kcolorscheme" ]
 
 [bar.default]
 position = "top"
