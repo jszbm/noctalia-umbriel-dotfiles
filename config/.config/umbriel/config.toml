@@ -79,7 +79,7 @@ button_glyph = "hover"
 button_background = true
 
 [appearance.shadow]
-enabled = false
+enabled = true
 
 [appearance.blur]
 radius = 3
