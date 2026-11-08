@@ -7,7 +7,7 @@
 Install dependencies
 ```
 sudo pacman -S noctalia stow nwg-look
-yay -S umbriel xdg-desktop-portal-umbriel-git
+yay -S umbriel-git xdg-desktop-portal-umbriel-git
 ```
 
 Run the setup script
