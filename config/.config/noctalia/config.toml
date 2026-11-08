@@ -12,8 +12,8 @@ margin_ends = 0
 radius = 0
 font_weight = 600
 capsule = true
-start  = ["control-center", "workspaces", "media", "wallpaper"]
-center = []
+start  = ["control-center", "workspaces", "wallpaper", "active_window"]
+center = ["media"]
 end    = [ "tray", "clipboard", "network", "bluetooth", "volume", "brightness", "battery", "notifications", "weather", "clock", ]
 
 [widget.workspaces]
@@ -27,6 +27,9 @@ custom_image = "~/.config/noctalia/arch-linux-rounded.svg"
 
 [widget.clock]
 format = "{:%a, %b %d %I:%M %p}"
+
+[widget.media]
+hide_when_no_media = true
 
 [wallpaper]
 directory = "~/Pictures/bg"

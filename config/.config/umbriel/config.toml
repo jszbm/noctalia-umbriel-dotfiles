@@ -62,16 +62,25 @@ disable_dynamic_confirmation = true
 # vrr = "fullscreen"
 # hdr = "auto"
 
-[output.DP-1]
-vrr = "disabled"
-
-[output.DP-2]
-vrr = "disabled"
-
 # ==============================================================================
 # Appearance
 # Blur uses a smaller radius than the built-in default.
 # https://docs.noctalia.dev/umbriel/appearance/
+[appearance.title_bar]
+mode = "off"
+height = 28
+button_position = "left"
+buttons = ["close", "minimize", "maximize"]
+button_size = -1
+button_gap = 8
+button_padding = -1
+button_corner_radius = -1
+button_glyph = "hover"
+button_background = true
+
+[appearance.shadow]
+enabled = false
+
 [appearance.blur]
 radius = 3
 
@@ -113,7 +122,6 @@ radius = 3
 [input.keyboard]
 numlock_toggle = true
 
-
 [input.touchpad]
 natural_scroll = true
 
@@ -135,21 +143,21 @@ natural_scroll = true
 [keybinds]
 
 # Locking
-"Mod+Alt+L" = "spawn:noctalia msg session lock"
+"Mod+Alt+L" = "spawn noctalia msg session lock"
 
 # Screenshot
-"Print" = "spawn:noctalia msg screenshot-region"
-"Shift+Print" = "spawn:noctalia msg screenshot-fullscreen"
-"Ctrl+Print" = "spawn:noctalia msg screenshot-fullscreen pick"
+"Print" = "spawn noctalia msg screenshot-region"
+"Shift+Print" = "spawn noctalia msg screenshot-fullscreen"
+"Ctrl+Print" = "spawn noctalia msg screenshot-fullscreen pick"
 
 # Applications and session
-"Mod+Return" = { action = "spawn:kitty", repeat = false }
-"Mod+R" = "spawn:noctalia msg panel-toggle launcher"
+"Mod+Return" = { action = "spawn kitty", repeat = false }
+"Mod+R" = "spawn noctalia msg panel-toggle launcher"
 "Mod+Q" = { action = "window-close", repeat = false }
 "Mod+Escape" = "session-quit"
 "Mod+Shift+Escape" = { action = "shortcuts-inhibit-toggle", allow_when_inhibited = true, repeat = false }
-"Mod+E" = {action = "spawn:nautilus -w", repeat = false }
-"Mod+Shift+Comma" = { action = "spawn:noctalia msg settings-open", repeat = false }
+"Mod+E" = {action = "spawn nautilus -w", repeat = false }
+"Mod+Shift+Comma" = { action = "spawn noctalia msg settings-open", repeat = false }
 
 # Focus and movement
 "Mod+Left" = "window-focus-left"
@@ -189,24 +197,24 @@ natural_scroll = true
 "Mod+Tab" = { action = "overview-toggle", repeat = false }
 
 # Workspaces
-"Mod+1" = "workspace-switch:1"
-"Mod+2" = "workspace-switch:2"
-"Mod+3" = "workspace-switch:3"
-"Mod+4" = "workspace-switch:4"
-"Mod+5" = "workspace-switch:5"
-"Mod+6" = "workspace-switch:6"
-"Mod+7" = "workspace-switch:7"
-"Mod+8" = "workspace-switch:8"
-"Mod+9" = "workspace-switch:9"
-"Mod+Shift+1" = "window-move-to-workspace:1"
-"Mod+Shift+2" = "window-move-to-workspace:2"
-"Mod+Shift+3" = "window-move-to-workspace:3"
-"Mod+Shift+4" = "window-move-to-workspace:4"
-"Mod+Shift+5" = "window-move-to-workspace:5"
-"Mod+Shift+6" = "window-move-to-workspace:6"
-"Mod+Shift+7" = "window-move-to-workspace:7"
-"Mod+Shift+8" = "window-move-to-workspace:8"
-"Mod+Shift+9" = "window-move-to-workspace:9"
+"Mod+1" = "workspace-switch 1"
+"Mod+2" = "workspace-switch 2"
+"Mod+3" = "workspace-switch 3"
+"Mod+4" = "workspace-switch 4"
+"Mod+5" = "workspace-switch 5"
+"Mod+6" = "workspace-switch 6"
+"Mod+7" = "workspace-switch 7"
+"Mod+8" = "workspace-switch 8"
+"Mod+9" = "workspace-switch 9"
+"Mod+Shift+1" = "window-move-to-workspace 1"
+"Mod+Shift+2" = "window-move-to-workspace 2"
+"Mod+Shift+3" = "window-move-to-workspace 3"
+"Mod+Shift+4" = "window-move-to-workspace 4"
+"Mod+Shift+5" = "window-move-to-workspace 5"
+"Mod+Shift+6" = "window-move-to-workspace 6"
+"Mod+Shift+7" = "window-move-to-workspace 7"
+"Mod+Shift+8" = "window-move-to-workspace 8"
+"Mod+Shift+9" = "window-move-to-workspace 9"
 
 # Monitors
 "Mod+Ctrl+Left" = "output-focus-left"
