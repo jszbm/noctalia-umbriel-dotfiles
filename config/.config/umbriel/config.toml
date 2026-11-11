@@ -221,9 +221,9 @@ natural_scroll = true
 "Mod+Ctrl+Right" = "output-focus-right"
 
 # Scratchpad
-"Mod+Shift+Space" = { action = "window-move-to-scratchpad", repeat = false }
-"Mod+Space" = "scratchpad-toggle"
-"Mod+Ctrl+Space" = { action = "window-restore-from-scratchpad", repeat = false }
+"Mod+Shift+S" = { action = "window-move-to-scratchpad", repeat = false }
+"Mod+S" = "scratchpad-toggle"
+"Mod+Ctrl+S" = { action = "window-restore-from-scratchpad", repeat = false }
 # "Mod+Tab" = "scratchpad-focus-next"
 
 # ==============================================================================
