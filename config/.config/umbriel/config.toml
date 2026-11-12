@@ -218,7 +218,9 @@ natural_scroll = true
 
 # Monitors
 "Mod+Ctrl+Left" = "output-focus-left"
+"Mod+Ctrl+Shift+Left" = "window-move-to-output-left"
 "Mod+Ctrl+Right" = "output-focus-right"
+"Mod+Ctrl+Shift+Right" = "window-move-to-output-right"
 
 # Scratchpad
 "Mod+Shift+S" = { action = "window-move-to-scratchpad", repeat = false }
